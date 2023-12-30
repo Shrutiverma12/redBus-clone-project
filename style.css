@@ -502,3 +502,214 @@ hr {
 .lowest-footer img {
   margin-left: 1.5rem;
 }
+
+/* Responsive for mobile */
+@media screen and (max-width: 600px) {
+  main {
+    height: 30rem;
+  }
+  header {
+    font-size: 1.2rem;
+  }
+
+  nav ul {
+    gap: 15px;
+    font-size: 0.6rem;
+  }
+  .center {
+    margin-left: 15px;
+    font-size: small;
+  }
+
+  .logo {
+    padding-right: 20px;
+    padding-left: 10px;
+  }
+  .search i {
+    display: none;
+  }
+  .cal {
+    display: none;
+  }
+
+  .search {
+    flex-direction: column;
+    height: 0px;
+    margin-top: 100px;
+  }
+  .main_heading {
+    padding-top: 0;
+    margin-left: 70px;
+  }
+  .from {
+    height: 25px;
+    margin-bottom: 5px;
+  }
+  .date {
+    width: 100%;
+    margin-left: 15px;
+    margin-top: 12px;
+    height: 20px;
+  }
+  .to {
+    margin-top: 2px;
+    height: 25px;
+    margin-left: 10px;
+  }
+  .scr-btn {
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 80px;
+    border-radius: 30px 0px 0px 30px;
+    position: relative;
+    top: -27px;
+    left: 155px;
+  }
+
+  .card {
+    height: 500px;
+    width: fit-content;
+    left: 90px;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .first {
+    width: 50px;
+  }
+  .heading-mid {
+    width: 250px;
+    font-size: 2rem;
+  }
+  .mid {
+    margin-left: 52px;
+    margin-top: 30px;
+    margin-bottom: 4px;
+    height: 520px;
+  }
+  .mid h1 {
+    line-height: 30px;
+    width: 500px;
+  }
+  .mid-logo {
+    line-height: 22px;
+    font-size: 1rem;
+  }
+  .mid-img {
+    gap: 2px;
+    line-height: 2px;
+  }
+  .mid-btn {
+    margin-top: 25px;
+    width: 340px;
+  }
+  .rigth {
+    display: none;
+  }
+  .left {
+    height: 800px;
+  }
+  .low-sec {
+    display: flex;
+    width: 100vw;
+    border-radius: 5px;
+    background-size: cover;
+    gap: 2px;
+    margin: 2px 0px 5px 5px;
+  }
+  .low-sec h1 {
+    font-size: 2rem;
+  }
+  .content2 {
+    flex-direction: column;
+    font-size: x-small;
+    width: 500px;
+    position: relative;
+    height: 350px;
+  }
+  .scanner {
+    margin-top: 2px;
+    position: relative;
+    top: -240px;
+    left: 200px;
+    height: 150px;
+  }
+  .down {
+    margin-top: -52px;
+    max-width: 150px;
+    position: relative;
+    top: -250px;
+    left: 200px;
+  }
+  .prime img {
+    width: 300px;
+  }
+  .prime-wrap {
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 100%;
+    margin-left: 5px;
+  }
+
+  .partnered {
+    line-height: 4rem;
+    width: 450px;
+    margin: 10px 0px 5px 40px;
+  }
+  .partnered h1 {
+    font-size: 1.6rem;
+    line-height: 2px;
+  }
+  .partnered h2 {
+    font-size: 1rem;
+  }
+  .rtc {
+    overflow-x: scroll;
+  }
+  .private-bus {
+    line-height: 2rem;
+    gap: 20px;
+  }
+  .question {
+    font-size: 0.6rem;
+  }
+  .FAQ {
+    margin: 2rem;
+    line-height: 3rem;
+  }
+  .FAQ h1 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+  .FAQ ul li {
+    line-height: 1rem;
+  }
+  .flag {
+    margin-left: 2rem;
+  }
+  .flag h1 {
+    font-size: 2rem;
+  }
+  .flags {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+  footer {
+    padding-left: 15px;
+    margin-top: 15px;
+    padding: 13px;
+    font-size: x-small;
+    padding-bottom: 1px;
+  }
+  footer hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  footer ul li {
+    line-height: 12px;
+  }
+  .lowest-footer {
+    padding: 0;
+    margin: 0;
+  }
+}
