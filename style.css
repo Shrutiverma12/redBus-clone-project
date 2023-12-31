@@ -503,17 +503,20 @@ hr {
   margin-left: 1.5rem;
 }
 
-/* Responsive for mobile */
+/* Responsive for large mobile */
 @media screen and (max-width: 600px) {
   main {
-    height: 30rem;
+    height: 35rem;
+  }
+  html {
+    overflow-x: hidden;
   }
   header {
     font-size: 1.2rem;
   }
 
   nav ul {
-    gap: 15px;
+    gap: 10px;
     font-size: 0.6rem;
   }
   .center {
@@ -569,7 +572,7 @@ hr {
   .card {
     height: 500px;
     width: fit-content;
-    left: 90px;
+    left: 25px;
   }
   .cards {
     flex-direction: column;
@@ -582,14 +585,15 @@ hr {
     font-size: 2rem;
   }
   .mid {
-    margin-left: 52px;
+    margin-left: 15px;
     margin-top: 30px;
     margin-bottom: 4px;
     height: 520px;
   }
   .mid h1 {
     line-height: 30px;
-    width: 500px;
+    width: 300px;
+    font-size: 1.6rem;
   }
   .mid-logo {
     line-height: 22px;
@@ -615,7 +619,7 @@ hr {
     border-radius: 5px;
     background-size: cover;
     gap: 2px;
-    margin: 2px 0px 5px 5px;
+    margin: 40px 0px 5px 5px;
   }
   .low-sec h1 {
     font-size: 2rem;
@@ -630,8 +634,8 @@ hr {
   .scanner {
     margin-top: 2px;
     position: relative;
-    top: -240px;
-    left: 200px;
+    top: -260px;
+    left: 150px;
     height: 150px;
   }
   .down {
@@ -639,7 +643,7 @@ hr {
     max-width: 150px;
     position: relative;
     top: -250px;
-    left: 200px;
+    left: 150px;
   }
   .prime img {
     width: 300px;
@@ -701,6 +705,9 @@ hr {
     font-size: x-small;
     padding-bottom: 1px;
   }
+  .red-bus-logo {
+    height: 20px;
+  }
   footer hr {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -711,5 +718,125 @@ hr {
   .lowest-footer {
     padding: 0;
     margin: 0;
+  }
+}
+
+/*Responsive for small mobile*/
+@media screen and (max-width: 320px) {
+  nav ul li {
+    width: 1rem;
+    margin-left: 25px;
+  }
+  .logo {
+    width: 3rem;
+    margin-left: -20px;
+  }
+  .center {
+    margin: 0;
+  }
+  .side {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  main {
+    height: 28rem;
+  }
+  .main_heading {
+    font-size: 1.5rem;
+  }
+  .search {
+    margin-top: 70px;
+  }
+  .search input {
+    width: 180px;
+    margin-left: 10px;
+  }
+  .date {
+    width: 100px;
+  }
+  .scr-btn {
+    left: 85px;
+  }
+  .card {
+    max-width: 200px;
+  }
+  .card h1 {
+    font-size: 1.5rem;
+  }
+  .cart {
+    min-width: 170px;
+    margin-left: 10px;
+  }
+  .cart div img {
+    width: 4rem;
+  }
+  .content h3 {
+    font-size: 0.4rem;
+  }
+  .content p {
+    font-size: 0.3rem;
+  }
+  .top-btn {
+    height: 15px;
+    font-size: 10px;
+  }
+  .bot-btn {
+    height: 15px;
+    font-size: 10px;
+  }
+  .ad {
+    width: 100%;
+  }
+  .mid-logo {
+    width: 170px;
+  }
+  .mid-logo img {
+    width: 2rem;
+  }
+  .mid-rigth-logo {
+    width: 2rem;
+  }
+  .scanner p {
+    font-size: 0.6rem;
+  }
+  .scanner {
+    left: 120px;
+  }
+  .scanner img {
+    width: 50px;
+  }
+  .down p {
+    font-size: 0.6rem;
+  }
+  .down {
+    left: 130px;
+  }
+  .down img {
+    width: 50px;
+  }
+
+  .box1 {
+    width: 150px;
+  }
+  .box1 img {
+    padding: 0;
+    width: 50%;
+  }
+  .right-content h2 {
+    font-size: 0.8rem;
+  }
+  .right-content p {
+    font-size: 0.5rem;
+  }
+  .FAQ ul li {
+    font-size: 0.6rem;
+    margin-left: -25px;
+  }
+  .flag h1 {
+    font-size: 1.4rem;
+  }
+  .flag-img img {
+    width: 50px;
   }
 }
